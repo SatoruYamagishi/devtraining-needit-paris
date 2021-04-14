@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description>All of my open NeedIt records</description>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>My Open NeedIt Requests</name>
+        <query_condition table="x_58872_needit_needit">u_requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^active=true^ORDERBYnumber<item endquery="false" field="u_requested_for" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-13 03:49:13</sys_created_on>
+        <sys_id>705e56acff232010377a65f8b721f1ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Open NeedIt Requests</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_sg_data_item_705e56acff232010377a65f8b721f1ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-13 03:49:13</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="DELETE" query="documentkey=705e56acff232010377a65f8b721f1ec"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>c3628c30db936c10601a11f84896193d</instance_id>
+        <instance_name>dev109388</instance_name>
+        <name>sys_sg_data_item_705e56acff232010377a65f8b721f1ec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description>All of my open NeedIt records</description><group_by/><instance_relative_url_qc/><name>My Open NeedIt Requests</name><query_condition table="x_58872_needit_needit">u_requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^active=true^ORDERBYnumber<item endquery="false" field="u_requested_for" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/></query_condition><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-13 03:49:13</sys_created_on><sys_id>705e56acff232010377a65f8b721f1ec</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Open NeedIt Requests</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_sg_data_item_705e56acff232010377a65f8b721f1ec</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-13 03:49:13</sys_updated_on><table>x_58872_needit_needit</table></sys_sg_data_item><sys_translated_text action="delete_multiple" query="documentkey=705e56acff232010377a65f8b721f1ec"/></record_update>]]></payload>
+        <payload_hash>1367847342</payload_hash>
+        <record_name>My Open NeedIt Requests</record_name>
+        <reverted_from/>
+        <source>ef5a1141ff5f2010377a65f8b721f141</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-13 03:49:13</sys_created_on>
+        <sys_id>7c5e56acff232010377a65f8b721f1ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178c958f4f20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-13 03:49:13</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>b45e56ac542320102d5306aec395ffed</update_guid>
+        <update_guid_history>b45e56ac542320102d5306aec395ffed:1367847342</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-13 03:49:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>66286cb6834341ee875a66b3fcce8fa4</sys_id>
+        <sys_metadata>705e56acff232010377a65f8b721f1ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Open NeedIt Requests</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_705e56acff232010377a65f8b721f1ec</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_705e56acff232010377a65f8b721f1ec">7c5e56acff232010377a65f8b721f1ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-13 03:49:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
